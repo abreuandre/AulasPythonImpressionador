@@ -1,0 +1,41 @@
+Exercícios do Módulo 1 - Operações, Variáveis e Input
+
+Parte 1 - Operações e Variáveis
+
+Crie um programa que imprima (print) os principais indicadores da loja Hastag&Drink no último ano. Obs: faça tudo usando variáveis.
+
+Valores do último ano:
+
+Quantidade de Vendas de Coca = 150
+Quantidade de Vendas de Pepsi = 130
+Preço Unitário da Coca = 1,50
+Preço Unitário da Pepsi = 1,50
+Custo da Loja: 2500,00
+
+Use o bloco abaixo para criar todas as variáveis que precisar.
+
+
+qtde_vendas_coca = 150
+qtde_vendas_pepsi = 130
+preco_unitario_coca = 1.50
+preco_unitario_pepsi = 1.50
+custo_loja = 2500
+
+
+
+1. Qual foi o faturamento de Pepsi da Loja?
+faturamento_pepsi = qtde_vendas_pepsi * preco_unitario_pepsi
+
+2. Qual foi o faturamento de Coca da Loja?
+faturamento_coca = qtde_vendas_coca * preco_unitario_coca
+
+3. Qual foi o lucro da loja?
+lucro = (faturamento_pepsi + faturamento_coca) - custo_loja
+
+4. Qual foi a Margem da Loja? (Lembre-se, margem = Lucro / Faturamento). Não precisa formatar em percentual
+margem = lucro / (faturamento_pepsi + faturamento_coca)
+
+
+
+Parte 2 - Inputs e Strings
+
